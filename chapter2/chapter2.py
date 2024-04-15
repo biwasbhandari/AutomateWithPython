@@ -76,7 +76,7 @@ Joe
 Hello, Joe. What is the password? (It is a fish.)
 swordfish
 Access granted.
-'''
+
 
 name = ''
 while True:
@@ -97,5 +97,16 @@ for num in range(101):
     total += num
 
 print(total)
+'''
 
+import random, sys
 
+for i in range(5):
+    print(random.randint(1,10))
+
+while True:
+    print('Type exit to exit the program')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print("YOU TYPED EXIT")
