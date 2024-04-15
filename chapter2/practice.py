@@ -89,10 +89,6 @@ break stops the loop and executes next program and continue skips the current it
 its the same b**ch
 
 13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
-
-14. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
-'''
-
 for i in range(1,11):
     print(i)
 
@@ -100,5 +96,11 @@ j = 0
 while j < 10:
     j += 1
     print(j)
+
+14. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+spam.bacon()
+'''
+
+
 
 
